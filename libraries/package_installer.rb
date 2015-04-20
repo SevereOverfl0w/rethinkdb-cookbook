@@ -28,7 +28,6 @@ module RethinkdbLib
         uri rethinkdb_config['url']
         distribution node['lsb']['codename']
         components ['main']
-        keyserver rethinkdb_config['key_server']
         key rethinkdb_config['key']
         action :add
       end
